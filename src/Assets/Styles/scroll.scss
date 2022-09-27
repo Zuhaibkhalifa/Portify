@@ -1,0 +1,17 @@
+.scroll {
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  align-items: center;
+  position: sticky;
+  background-color: transparent;
+  top: 0;
+  height: 100px;
+}
+.scroll.active {
+  background-color: rgba($color: #161f29, $alpha: 0.9);
+  transition: all 0.5s ease-in-out;
+}
